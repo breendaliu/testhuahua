@@ -1,0 +1,53 @@
+set_profil:
+  # 点击资料设置按钮,进入修改资料页
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_profile_setting'
+    action: click
+
+set_accout_safe:
+  # 点击账号与安全按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_accout_safe'
+    action: click
+
+set_privacy:
+  # 点击隐私设置
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_privacy_setting'
+    action: click
+
+set_message:
+  # 点击开启消息通知
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_friendship_setting'
+    action: click
+
+set_address:
+  # 点击我的地址按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_accout_cancellation'
+    action: click
+
+set_switch_account:
+  # 点击切换账号按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_switch_account'
+    action: click
+
+set_Clean:
+  # 点击清除缓存按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_clean'
+    action: click
+
+set_clean_cancel:
+  # 取消清除缓存
+  - by: id
+    locator: 'com.kejian.huahua:id/btn_cancel'
+    action: click
+
+set_clean_confirm:
+  # 确定清除缓存
+  - by: id
+    locator: 'com.kejian.huahua:id/btn_confirm'
+    action: click

@@ -1,0 +1,19 @@
+goto_home:
+  # 点击底部首页按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/home'
+    action: click
+store:
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_storeName'
+    action: click
+
+store_back:
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+
+store_keyword:
+  - by: id
+    locator: 'com.kejian.huahua:id/marqueeView'
+    action: click

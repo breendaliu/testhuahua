@@ -1,0 +1,38 @@
+login_pswd:
+  # 点击手机号登录
+  - by: id
+    locator: 'com.kejian.huahua:id/rl_phone_login'
+    action: click
+    # 点击密码登录
+  - by: id
+    locator: 'com.kejian.huahua:id/tvPSwLogin'
+    action: click
+    # 输入手机号码
+  - by: id
+    locator: 'com.kejian.huahua:id/et_phone'
+    action: send
+    value: '18637149228'
+    # 输入密码
+  - by: id
+    locator: 'com.kejian.huahua:id/et_pswd'
+    action: send
+    value: '123456'
+    # 点击登录
+  - by: id
+    locator: 'com.kejian.huahua:id/rl_login_bg'
+    action: click
+    # 点击允许获取位置权限
+ # - by: id
+ #   locator: 'com.lbe.security.miui:id/permission_allow_foreground_only_button'
+#    action: click
+
+  # 点击弹窗关闭按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_del_img'
+    action: click
+
+
+
+
+
+

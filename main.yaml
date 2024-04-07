@@ -1,0 +1,31 @@
+goto_recycle:
+  # 点击底部回收按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/mutual'
+    action: click
+
+goto_idle:
+  # 点击底部二手按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/community'
+    action: click
+goto_home:
+  # 点击底部首页按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/home'
+    action: click
+
+goto_mine:
+  # 点击底部我的按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/mine'
+    action: click
+
+goto_set:
+  # 点击我的页面右上角设置按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_settings'
+    action: click
+
+
+

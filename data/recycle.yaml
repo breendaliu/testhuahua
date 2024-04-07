@@ -1,0 +1,5 @@
+goto_recycle:
+  # 点击底部回收按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/mutual'
+    action: click

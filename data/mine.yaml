@@ -1,0 +1,136 @@
+goto_mine:
+  # 点击底部我的按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/mine'
+    action: click
+qrcode:
+  # 点击右上角二维码图标
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_qrcode'
+    action: click
+qrcode_bind_wx:
+  # 点击绑定微信按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/btn_bind_wx'
+    action: click
+qrcode_back:
+  # 点击二维码页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+goto_set:
+  # 点击我的页面右上角设置按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_settings'
+    action: click
+set_back:
+  # 点击设置页返回按钮
+  - by: class name
+    locator: 'android.widget.ImageButton'
+    action: click
+goto_mian_user:
+  # 点击主页
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_mian_user'
+    action: click
+mian_user_back:
+  # 点击个人主页的返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+liked:
+  # 点击获赞数
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_liked'
+    action: click
+liked_know:
+  # 点击获赞弹窗中的我知道了按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/btn_know'
+    action: click
+focus:
+  # 点击关注数
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_focus'
+    action: click
+friends_back:
+  # 点击朋友页面的返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+fans:
+  # 点击粉丝数
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_fans'
+    action: click
+wallet:
+  # 点击我的钱包
+  - by: id
+    locator: 'com.kejian.huahua:id/rl_wallet'
+    action: click
+wallet_back:
+  # 点击我的钱包页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+welfare:
+  # 点击福利中心
+  - by: id
+    locator: 'com.kejian.huahua:id/rl_welfare'
+    action: click
+welfare_back:
+  # 点击福利中心页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/btn_back'
+    action: click
+publish:
+  # 点击我发布的
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_wait_pay'
+    action: click
+
+publish_back:
+  # 点击我发布的页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+wait_send:
+  # 点击我卖出的
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_wait_send'
+    action: click
+wait_send_back:
+  # 点击我卖出的页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+wait_receipt:
+  # 点击我买到的
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_wait_receipt'
+    action: click
+wait_receipt_back:
+  # 点击我买到的页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+wait_evaluate:
+  # 点击我收藏的
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_wait_evaluate'
+    action: click
+wait_evaluate_back:
+  # 点击我收藏的页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click
+authentication:
+  # 点击认证中心
+  - by: id
+    locator: 'com.kejian.huahua:id/tv_update'
+    action: click
+authentication_back:
+  # 点击身份认证页面返回按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/iv_back'
+    action: click

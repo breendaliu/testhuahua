@@ -1,0 +1,5 @@
+goto_idle:
+  # 点击底部二手按钮
+  - by: id
+    locator: 'com.kejian.huahua:id/community'
+    action: click

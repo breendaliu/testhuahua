@@ -1,0 +1,6 @@
+appium
+pytest
+webdriver
+json
+yaml
+selenium
