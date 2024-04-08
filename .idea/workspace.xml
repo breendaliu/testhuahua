@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af954d6-d881-4b80-8099-a33a3447e611" name="Default Changelist" comment="20240407">
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/stepwise" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcase/result/023392ed-047a-46e3-8c2a-f5e748087908-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcase/result/0265452a-9119-4d72-b87b-c6efa9b843e6-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcase/result/041bf026-baa4-491c-8d61-611e4805a8ee-result.json" afterDir="false" />
@@ -395,6 +401,7 @@
       <change afterPath="$PROJECT_DIR$/testcase/unit/allure_html/widgets/suites.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcase/unit/allure_html/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase" beforeDir="false" afterPath="$PROJECT_DIR$/testcase" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -420,6 +427,14 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="9b4f4d50-ffc1-4c28-9d0b-2afcc4412e6f" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:breendaliu/testhuahua.git" />
+        <option value="https://github.com/breendaliu/test_huahua.git" />
+      </set>
+    </option>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -440,7 +455,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -573,11 +588,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.testaa" />
-      <item itemvalue="Python tests.pytest in E:/test_huahua/test1/test_start.py" />
-      <item itemvalue="Python tests.pytest for test_mine.TestMine" />
       <item itemvalue="Python tests.pytest for test_home.TestHome.test_store_keyword" />
+      <item itemvalue="Python tests.pytest for test_mine.TestMine" />
       <item itemvalue="Python tests.pytest for test_pswd.TestPwsd.test_login_password" />
       <item itemvalue="Python tests.pytest for test_set.TestSet" />
+      <item itemvalue="Python tests.pytest in E:/test_huahua/test1/test_start.py" />
     </list>
     <recent_temporary>
       <list>
@@ -629,6 +644,19 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20240407" />
     <option name="LAST_COMMIT_MESSAGE" value="20240407" />
@@ -638,10 +666,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="317" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712468973820" />
-    <state x="544" y="68" width="913" height="928" key="CommitChangelistDialog2" timestamp="1712483398124">
+    <state x="544" y="68" width="913" height="928" key="CommitChangelistDialog2" timestamp="1712550148313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="68" width="913" height="928" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712483398124" />
+    <state x="544" y="68" width="913" height="928" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712550148313" />
     <state x="690" y="222" key="FileChooserDialogImpl" timestamp="1712483057016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -671,25 +699,33 @@
     </state>
     <state width="1894" height="391" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712029760630" />
     <state width="1894" height="173" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1710293485897" />
-    <state x="635" y="171" key="RollbackChangesDialog" timestamp="1712463745579">
+    <state x="635" y="171" key="RollbackChangesDialog" timestamp="1712550171030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="635" y="171" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712463745579" />
-    <state x="584" y="103" key="SettingsEditor" timestamp="1712483369144">
+    <state x="635" y="171" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712550171030" />
+    <state x="584" y="103" key="SettingsEditor" timestamp="1712537721536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="584" y="103" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712483369144" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1712483437283">
+    <state x="584" y="103" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712537721536" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1712540465655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712483437283" />
-    <state x="592" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1711604270918">
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712540465655" />
+    <state x="592" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1712537757984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="308" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1711604270918" />
-    <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712483405219">
+    <state x="592" y="308" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712537757984" />
+    <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712550152822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712483405219" />
+    <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712550152822" />
+    <state x="612" y="285" key="git4idea.merge.GitPullDialog" timestamp="1712540580456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="612" y="285" key="git4idea.merge.GitPullDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712540580456" />
+    <state x="773" y="379" key="git4idea.rebase.GitRebaseDialog" timestamp="1712550205270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="379" key="git4idea.rebase.GitRebaseDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1712550205270" />
   </component>
 </project>
