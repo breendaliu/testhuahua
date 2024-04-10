@@ -1,0 +1,3 @@
+[1m[31mERROR   [0m root:handle_black.py:41 element not found, handle black list
+[1m[31mERROR   [0m root:handle_black.py:41 element not found, handle black list
+[33mWARNING [0m root:handle_black.py:58 black list no one foound
